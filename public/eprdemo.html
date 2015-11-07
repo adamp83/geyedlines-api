@@ -1,0 +1,86 @@
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en" data-useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.7" style=""><head><meta class="foundation-mq-small"><meta class="foundation-mq-small-only"><meta class="foundation-mq-medium"><meta class="foundation-mq-medium-only"><meta class="foundation-mq-large"><meta class="foundation-mq-large-only"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-xlarge-only"><meta class="foundation-mq-xxlarge"><meta class="foundation-data-attribute-namespace">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guideline Goggles Demo</title>
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<!-- BOOTSTRAP -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<script src="/eprdemo.js"></script>
+
+<style>
+  .alert-popup{
+    position:fixed;
+    top:30px;
+    right:20px;
+    height:100px;
+    max-width: 400px;
+    display:none;
+  }
+</style>
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="alert-popup alert alert-warning">
+      Loading...
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="pull-right text-muted">
+          FutureNote EPR v2.0
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="/grandad.jpg" width=128 height=128 class="img-circle" />
+
+          </div>
+          <div class="col-md-9">
+            <h1>Clinical Record</h1>
+            Clinical Record for Mr Joe Bloggs
+            <br/>
+            DOB 01/01/1926
+            <br/>
+            Consultant: Dr G. House
+          </div>
+        </div>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Clinical Notes</h2>
+
+            <div class="well">
+              Morning ward round with Dr House, full lupus screen ordered...
+            </div>
+            <div class="well">
+              Nursing observations completed, no concerns
+            </div>
+            <div class="well">
+              Patient admitted with infective exacerbation of COPD...
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>New Entry</h2>
+            <textarea id="newentry" class="form-control" style="height:200px;"></textarea>
+            <br/>
+            <button class="btn btn-default">Submit Entry</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

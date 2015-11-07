@@ -1,6 +1,6 @@
 class QueriesController < ApplicationController
 
-  def show
+  def index
     q = params[:query]
     #render json: "Searching for #{q}"
 

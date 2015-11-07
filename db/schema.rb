@@ -19,8 +19,9 @@ ActiveRecord::Schema.define(version: 20151107111818) do
     t.text     "data"
     t.text     "dose"
     t.text     "cautions"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.boolean  "elderly",    default: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
 end

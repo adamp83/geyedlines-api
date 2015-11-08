@@ -1,0 +1,33 @@
+Cardio-Respiratory Arrest
+Cardiac arrest
+Shock
+Unconscious
+Anaphylaxis
+Acute kidney injury
+Chronic kidney disease
+Abdominal Pain
+Acute Back Pain
+Blackout
+Collapse
+Breathlessness
+Chest Pain
+Confusion
+Delirium
+Cough
+Diarrhoea
+Fall
+Fever
+Fit
+Seizure
+Haematemesis
+Melaena
+Headache
+Jaundice
+Limb Pain
+Palpitations
+Poisoning
+Rash
+Vomiting
+Nausea
+Weakness
+Paralysis

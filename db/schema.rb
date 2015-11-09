@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151108001008) do
+ActiveRecord::Schema.define(version: 20151108093815) do
 
   create_table "conditions", force: :cascade do |t|
     t.string   "name"
@@ -29,6 +29,13 @@ ActiveRecord::Schema.define(version: 20151108001008) do
     t.boolean  "elderly",    default: false
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+  end
+
+  create_table "user_prompts", force: :cascade do |t|
+    t.string   "keyword"
+    t.string   "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

@@ -24,3 +24,6 @@ module GeyedlinesApi
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+#AlchemyAPI.key = "0ff972c7d8e641817b6cdc9d080198b08fad43b9"
+AlchemyAPI.key = "ffc7c2b00d0191e44cc947508eafa51177fa6873"

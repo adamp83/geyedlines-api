@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'nokogiri'
 gem 'htmlentities'
 
+gem 'alchemy-api-rb', :require => 'alchemy_api'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

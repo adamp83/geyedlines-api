@@ -1,8 +1,16 @@
 Rails.application.routes.draw do
+  get 'user_prompts/index'
+
+  get 'user_prompts/show'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   root 'queries#index'
+
+  resources :user_prompts
+
+  get 'keywords' => 'queries#keywords'
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
